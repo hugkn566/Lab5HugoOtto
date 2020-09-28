@@ -2,8 +2,25 @@ Package: Sweparl
 Type: Package
 Title: What the package does (short line)
 Version: 1.0
+<<<<<<< HEAD
 Date: 2020-09-21
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: More about what it does (maybe more than one line)
 License: What license is it under?
+=======
+Date: 2020-09-23
+Title: Download data for quarterly ongoing illnesses in Sweden
+Authors@R: c(person("Hugo", "Knape", role = c("aut", "cre"),
+                     email = "hugkn566@student.liu.se"),
+              person("Otto", "Moen", email = "ottmo242@student.liu.se", role = "aut"))
+Author: Hugo Knape, Otto Moen 
+Maintainer: Otto Moen <ottmo242@student.liu.se>
+Depends: R (>= 3.1.0)
+Description: The package provides a function to download data for quarterly ongoing illnesses in Sweden from 2005 and onward from the API of the Swedish Social Insurance Agency (Forsakringskassan). 
+License: GPL (>= 2)
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+>>>>>>> 33c0593e9ad8f506d64b4b338fbb82e8799c1724

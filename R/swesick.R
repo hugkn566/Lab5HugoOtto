@@ -10,6 +10,10 @@
 
 swesick <- function(year=NULL){
   
+  if(is.null(year)==FALSE){
+    stopifnot(is.numeric(year)==TRUE)
+  }
+  
   if(is.null(year)==TRUE){
     year <- 2005:(as.numeric(substr(date(), (nchar(date())-3), nchar(date())))-1)
   }
