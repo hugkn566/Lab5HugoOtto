@@ -12,6 +12,7 @@ swesick <- function(year=NULL){
   
   if(is.null(year)==FALSE){
     stopifnot(is.numeric(year)==TRUE)
+    stopifnot(min(year)>=2005 & max(year)<=(as.numeric(substr(date(), (nchar(date())-3), nchar(date())))-1))
   }
   
   if(is.null(year)==TRUE){
