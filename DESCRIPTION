@@ -12,3 +12,5 @@ Description: The package provides a function to download data for quarterly ongo
 License: GPL (>= 2)
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat
