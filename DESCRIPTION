@@ -1,14 +1,4 @@
 Package: Swesick
-Type: Package
-Title: What the package does (short line)
-Version: 1.0
-<<<<<<< HEAD
-Date: 2020-09-21
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
-=======
 Date: 2020-09-23
 Title: Download data for quarterly ongoing illnesses in Sweden
 Authors@R: c(person("Hugo", "Knape", role = c("aut", "cre"),
@@ -23,4 +13,3 @@ LazyData: true
 RoxygenNote: 7.1.1
 Suggests: 
     testthat
->>>>>>> 33c0593e9ad8f506d64b4b338fbb82e8799c1724
