@@ -16,4 +16,7 @@ Imports:
     jsonlite,
     httr
 Suggests: 
-    testthat
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

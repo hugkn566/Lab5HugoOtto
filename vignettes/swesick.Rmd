@@ -1,8 +1,8 @@
 ---
-title: "Swesick package"
+title: "Swesick"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{swesick}
+  %\VignetteIndexEntry{Swesick}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -27,9 +27,3 @@ data_all <- swesick()
 
 data_2005_2007 <- swesick(year=c(2005,2007))
 ```
-
-
-
-
-
-

@@ -40,5 +40,7 @@ test_that("Output is correct", {
 test_that("Encoding is UTF-8", {
   testvalue <- swesick(2005)
   
-  expect_equal(Encoding(frame$diagnoskapitel_text[3]), "UTF-8")
+  expect_equal(Encoding(testvalue$diagnoskapitel_text[3]), "UTF-8")
 })
+
+
