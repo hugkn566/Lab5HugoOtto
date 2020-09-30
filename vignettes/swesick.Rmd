@@ -1,0 +1,35 @@
+---
+title: "Swesick package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{swesick}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Swesick)
+```
+
+
+# swesick function
+The Swesick package provides the function swesick which downloads data for quarterly ongoing illnesses in Sweden from 2005 and onward. The data is provided by the API for the Swedish Social Insurance Agency (Forsakringskassan). The swesick function has one argument (year) which gives the user the option to download data for specific years. By default the function will download all the available data and store it as a data.frame object.
+
+```{r, eval=FALSE}
+data_all <- swesick()
+
+data_2005_2007 <- swesick(year=c(2005,2007))
+```
+
+
+
+
+
+
