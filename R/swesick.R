@@ -23,7 +23,9 @@ swesick <- function(year=NULL){
   
   dataframes <- lapply(requests, function(x){
     request <- httr::GET(x)
-    convert <- jsonlite::fromJSON(rawToChar(request$content))
+    string <- rawToChar(request$content)
+    Encoding(string) <- "UTF-8"
+    convert <- jsonlite::fromJSON(string)
     frame <- convert$results
   })
   
